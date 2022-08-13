@@ -13,5 +13,10 @@ configs.setup({
 	autopairs = {
 		enable = true,
 	},
-	indent = { enable = true, disable = { "python", "css" } },
+	indent = { enable = true, disable = { "python", "css", "yaml" } },
+  rainbow = {
+    enable = true,
+    extended_mode = true,   -- Also highlight non-bracjet delimiters like html tagsm boolean or table
+    max_file_lines = nil,
+  }
 })
